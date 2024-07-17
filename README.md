@@ -2,18 +2,18 @@
 
 ## Table of Contents
 
-- [plausibility_filter](#plausibility_filter)
-- [loc_colreg](#loc_colreg)
-- [plot_conditional_marking](#plot_conditional_marking)
-- [df_time_intersection](#df_time_intersection)
-- [detect_real_timeresolution](#detect_real_timeresolution)
-- [detect_real_timeresolution_df](#detect_real_timeresolution_df)
-- [identify_supply_return](#identify_supply_return)
-- [df_clusterTime_function](#df_clusterTime_function)
-- [pullzero](#pullzero)
-- [resample2equidistance](#resample2equidistance)
-- [desum_formBased](#desum_formBased)
-- [desum_period_based](#desum_period_based)
+- [plausibility_filter](#plausibility_filter) - Range filter that removes timestamps with values or derivatives outside a defined range or marks them as invalid.
+- [loc_colreg](#loc_colreg) - Filters columns of a pandas DataFrame based on regular expressions.
+- [plot_conditional_marking](#plot_conditional_marking) - Plots marker areas in time periods where a given condition is fulfilled over an existing plot.
+- [df_time_intersection](#df_time_intersection) - Calculates the temporal intersection of two pandas DataFrames.
+- [detect_real_timeresolution](#detect_real_timeresolution) - Detects the real time resolution in a time series where values are updated.
+- [detect_real_timeresolution_df](#detect_real_timeresolution_df) - Detects the real time resolution in a DataFrame of time series.
+- [identify_supply_return](#identify_supply_return) - Determines whether more energy is supplied or returned based on heat meter time series.
+- [df_clusterTime_function](#df_clusterTime_function) - Determines time intervals where a specific condition (e.g., threshold exceeded) occurs and calculates the desired quantity for each interval.
+- [pullzero](#pullzero) - Subtracts the initial value of each counter time series in a DataFrame so that they all start at zero.
+- [resample2equidistance](#resample2equidistance) - Completes time series data based on a defined temporal resolution, possibly adding missing timestamps.
+- [desum_formBased](#desum_formBased) - Divides a data series into two summands based on given criteria.
+- [desum_period_based](#desum_period_based) - Disaggregates a time series into multiple time series based on different known periodicities.
 
 
 ## plausibility_filter
@@ -245,18 +245,19 @@ The `desum_period_based` function disaggregates the values of a time series into
 
 ## Inhaltsverzeichnis
 
-- [plausibility_filter](#plausibility_filter)
-- [loc_colreg](#loc_colreg)
-- [plot_conditional_marking](#plot_conditional_marking)
-- [df_time_intersection](#df_time_intersection)
-- [detect_real_timeresolution](#detect_real_timeresolution)
-- [detect_real_timeresolution_df](#detect_real_timeresolution_df)
-- [identify_supply_return](#identify_supply_return)
-- [df_clusterTime_function](#df_clusterTime_function)
-- [pullzero](#pullzero)
-- [resample2equidistance](#resample2equidistance)
-- [desum_formBased](#desum_formBased)
-- [desum_period_based](#desum_period_based)
+- [plausibility_filter](#plausibility_filter) - Filtert Datenpunkte, deren Werte oder Ableitungen außerhalb eines definierten Bereichs liegen oder markiert sie als ungültig.
+- [loc_colreg](#loc_colreg) - Filtert Spalten eines pandas DataFrame basierend auf regulären Ausdrücken.
+- [plot_conditional_marking](#plot_conditional_marking) - Plottet Markierungsflächen in einem bestehenden Plot, wo eine bestimmte Bedingung erfüllt ist.
+- [df_time_intersection](#df_time_intersection) - Berechnet die zeitliche Schnittmenge von zwei pandas DataFrames.
+- [detect_real_timeresolution](#detect_real_timeresolution) - Erkennt die reale Zeitauflösung einer Zeitreihe ohne NaN-Werte.
+- [detect_real_timeresolution_df](#detect_real_timeresolution_df) - Erkennt die reale Zeitauflösung eines DataFrame von Zeitreihen.
+- [identify_supply_return](#identify_supply_return) - Ermittelt, ob mehr Energie zugeführt oder abgeführt wird, basierend auf Wärmezähler-Zeitreihen.
+- [df_clusterTime_function](#df_clusterTime_function) - Bestimmt Zeitintervalle, in denen eine spezifische Bedingung in einer Zeitreihe erfüllt ist und berechnet eine gewünschte Größe für jedes Zeitintervall.
+- [pullzero](#pullzero) - Subtrahiert den Anfangswert jeder Zählzeitreihe eines DataFrame, damit alle Zeitreihen bei null beginnen.
+- [resample2equidistance](#resample2equidistance) - Komplettiert eine Zeitreihe basierend auf einer definierten zeitlichen Auflösung und fügt ggf. fehlende Zeitstempel hinzu.
+- [desum_formBased](#desum_formBased) - Teilt eine Datenserie basierend auf bestimmten Kriterien in zwei Summanden auf.
+- [desum_period_based](#desum_period_based) - Zerlegt eine Zeitreihe in mehrere Zeitreihen basierend auf verschiedenen, bekannten Periodizitäten.
+
   
 ## plausibility_filter
 
