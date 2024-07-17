@@ -251,6 +251,8 @@ The `desum_period_based` function disaggregates the values of a time series into
 
 <details>
 <summary>German</summary>
+
+  
 ## Inhaltsverzeichnis
 
 - [plausibility_filter](#plausibility_filter) - Filtert Datenpunkte, deren Werte oder Ableitungen außerhalb eines definierten Bereichs liegen oder markiert sie als ungültig.
