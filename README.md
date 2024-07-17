@@ -249,7 +249,7 @@ The `desum_period_based` function disaggregates the values of a time series into
 </details>
 
 
-<details>
+<details open>
 <summary>German</summary>
 
   
