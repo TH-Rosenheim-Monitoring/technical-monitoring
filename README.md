@@ -1,7 +1,6 @@
 <details>
 <summary>English</summary>
 
-# technical-monitoring-helper-methods - documentation in English
 
 ## Table of Contents
 
