@@ -1,3 +1,6 @@
+<details>
+<summary>English</summary>
+
 # technical-monitoring-helper-methods - documentation in English
 
 ## Table of Contents
@@ -243,6 +246,11 @@ The `desum_period_based` function disaggregates the values of a time series into
   
 # technical-monitoring-helper-methods - Dokumentation auf Deutsch
 
+</details>
+
+
+<details>
+<summary>German</summary>
 ## Inhaltsverzeichnis
 
 - [plausibility_filter](#plausibility_filter) - Filtert Datenpunkte, deren Werte oder Ableitungen außerhalb eines definierten Bereichs liegen oder markiert sie als ungültig.
@@ -476,4 +484,6 @@ Die Funktion `desum_period_based` disaggregiert die Werte einer Zeitreihe in meh
   - Zeitreihe, die disaggregiert werden soll.
 - `characterizing_periods`: `Liste` (Standard: `[60, 1440]`)
   - Liste von Periodendauern in Minuten, die die vermuteten Verbra
+ 
+  </details>
 
