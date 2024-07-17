@@ -1,5 +1,20 @@
 # technical-monitoring-helper-methods - documentation in English
 
+## Table of Contents
+
+- [plausibility_filter](#plausibility_filter)
+- [loc_colreg](#loc_colreg)
+- [plot_conditional_marking](#plot_conditional_marking)
+- [df_time_intersection](#df_time_intersection)
+- [detect_real_timeresolution](#detect_real_timeresolution)
+- [detect_real_timeresolution_df](#detect_real_timeresolution_df)
+- [identify_supply_return](#identify_supply_return)
+- [df_clusterTime_function](#df_clusterTime_function)
+- [pullzero](#pullzero)
+- [resample2equidistance](#resample2equidistance)
+- [desum_formBased](#desum_formBased)
+- [desum_period_based](#desum_period_based)
+
 
 ## plausibility_filter
 
@@ -227,8 +242,22 @@ The `desum_period_based` function disaggregates the values of a time series into
 
   
 # technical-monitoring-helper-methods - Dokumentation auf Deutsch
-# Funktionsdokumentation
 
+## Inhaltsverzeichnis
+
+- [plausibility_filter](#plausibility_filter)
+- [loc_colreg](#loc_colreg)
+- [plot_conditional_marking](#plot_conditional_marking)
+- [df_time_intersection](#df_time_intersection)
+- [detect_real_timeresolution](#detect_real_timeresolution)
+- [detect_real_timeresolution_df](#detect_real_timeresolution_df)
+- [identify_supply_return](#identify_supply_return)
+- [df_clusterTime_function](#df_clusterTime_function)
+- [pullzero](#pullzero)
+- [resample2equidistance](#resample2equidistance)
+- [desum_formBased](#desum_formBased)
+- [desum_period_based](#desum_period_based)
+  
 ## plausibility_filter
 
 ### Beschreibung
